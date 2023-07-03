@@ -10,6 +10,6 @@ func main(){
 	var q *int
 	j := 7
 	p = &j
-	q = p+1
-	fmt.Println(q) //pointer operations
+	q = p
+	fmt.Println(*q) //pointer operations
 }
